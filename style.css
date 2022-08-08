@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+:root{
+    --hue-neutral:200;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+    --hue-button: 209;
+}
+body{
+    --hue: var(--hue-neutral);
+    padding: 0;
+    margin: 0;
+    background-color: hsl(var(--hue), 100%, 20%);
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-weight: 700;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+button{
+    all: unset;
+    cursor: pointer;
+}
+.hide{
+    display: none !important;
+}
+.quiz-box{
+    width: 300px;
+    height: 700px;
+    background-color: #fff;
+    padding: 170px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#informations{
+    display: flex;
+    justify-content: center;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#question-box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.answer-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.answer{
+    max-width: 800px;
+    background-color: hsl(var(--hue), 71%, 47%);
+    border-radius: 10px;
+    padding: 1rem;
+    border: hsl(var(--hue), 71%, 20%) 2px solid;
+    transition: 0.2s;
+}
+.answer:hover{
+    background-color: hsl(var(--hue), 80%, 50%);
+    border: hsl(var(--hue), 71%, 30%) 2px solid;
+}
+.answer.correct{
+    --hue: var(--hue-correct);
+}
+.answer.wrong{
+    --hue: var(--hue-wrong);
+}
+.control-btn{
+    margin: 2rem 0;
+    background-color: hsl(var(--hue), 71%, 47%);
+    border-radius: 10px;
+    padding: 1rem;
+    border: hsl(var(--hue), 71%, 20%) 2px solid;
+    transition: 0.2s;
+    font-size: 70px;
+}
+.control-btn:hover{
+    background-color: hsl(var(--hue), 80%, 50%);
+    border: hsl(var(--hue), 71%, 30%) 2px solid;
+}
