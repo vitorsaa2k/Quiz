@@ -122,4 +122,76 @@ const questions = [
             {text: 'Abril de 2014', correct: false}
         ]
     },
+    {
+        question: 'Qual o tamanho da Rússia',
+        answers: [
+            {text: '18.100.000 km²', correct: false},
+            {text: '16.100.000 km²', correct: false},
+            {text: '19.100.000 km²', correct: false},
+            {text: '17.100.000 km²', correct: true}
+        ]
+    },
+    {
+        question: 'Qual o maior rio da Rússia',
+        answers: [
+            {text: 'Rio volga', correct: true},
+            {text: 'Rio lenissei', correct: false},
+            {text: 'Rio ob', correct: false},
+            {text: 'Rio amur', correct: false}
+        ]
+    },
+    {
+        question: 'Qual a capital da Rússia',
+        answers: [
+            {text: 'São Petersburgo', correct: false},
+            {text: 'Ecaterimburgo', correct: false},
+            {text: 'Moscou', correct: true},
+            {text: 'Sóchi', correct: false}
+        ]
+    },
+    {
+        question: 'Qual a cidade com a maior população da Rússia',
+        answers: [
+            {text: 'São Petersburgo', correct: false},
+            {text: 'Moscovo', correct: true},
+            {text: 'Novosibirsk', correct: false},
+            {text: 'Ecaterimburgo', correct: false}
+        ]
+    },
+    {
+        question: 'Qual a cidade mais rica da Rússia',
+        answers: [
+            {text: 'Samara', correct: false},
+            {text: 'Cazã', correct: false},
+            {text: 'Moscou', correct: true},
+            {text: 'Nijni Novgorod', correct: false}
+        ]
+    },
+    {
+        question: 'Quais são as duas cidades mais importantes da Rússia',
+        answers: [
+            {text: 'Moscou e São Petersburgo', correct: true},
+            {text: 'Nijni Novgorod e Cazã', correct: false},
+            {text: 'Moscou e Ecaterimburgo', correct: false},
+            {text: 'São Petersburgo e Ecaterimburgo', correct: false}
+        ]
+    },
+    {
+        question: 'Qual o clima que predomina a Rússia',
+        answers: [
+            {text: 'Clima temperado', correct: true},
+            {text: 'Clima equatorial', correct: false},
+            {text: 'Clima Semiárido', correct: false},
+            {text: 'Clima Subtropical', correct: false}
+        ]
+    },
+    {
+        question: 'Quais são os principais produtos importados da Rússia',
+        answers: [
+            {text: 'Adubos', correct: true},
+            {text: 'Madeira', correct: false},
+            {text: 'Algodão', correct: false},
+            {text: 'Arroz', correct: false}
+        ]
+    },
 ]
